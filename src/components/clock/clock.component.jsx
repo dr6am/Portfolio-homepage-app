@@ -17,30 +17,37 @@ export default class extends Component {
 			this.forceUpdate()
 		}, 1000);
 		return (
-			<Card>
-				<Time id={"time"}>{this.getTime()}</Time>
-				<Marque width={"100%"} fontSize={"15px"}>{new Date('December 17, 1995 03:24:00').toString()}</Marque>
-			</Card>
+			<CardWrap>
+				<Card>
+					<Time id={"time"}>{this.getTime()}</Time>
+					<Marque width={"100%"}
+					        fontSize={"15px"}>{new Date('December 17, 1995 03:24:00').toString()}</Marque>
+				</Card>
+			</CardWrap>
 		)
 	}
 }
 const Card = styled.div`
-	box-sizing: content-box;
+	margin-top: auto;
+	width: 500px;
+	height: min-content;
 	align-items: center;
-	position: fixed;
 	z-index: 2;
 	font-size: 3vmax;
 	background: #fff;
 	border-radius: 15px;
 	padding: 30px;
-	width: min-content;
-	height: min-content;
-	margin:auto;
-	top: 40vh;
+	top: 0;
 	left:0;
 	right:0;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 `;
+const CardWrap = styled.div`
+	display: flex;
+	flex-direction: row;
+	height: 509px;
+	justify-content: right;
+`
 const Time = styled.h1`
 	letter-spacing: .05em;
 	color: #111111;

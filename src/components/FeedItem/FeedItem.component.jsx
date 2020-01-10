@@ -12,7 +12,7 @@ function FeedItem({url, title, caption, thumb,stripe}) {
 			<TextBlock size={thumb.height*0.8}>
 				<h1>{title ? title : "Title not found"}</h1>
 				<SubText>{caption}</SubText>
-				<Marque margin={"top"} width={"100%"} fontSize={"15px"}>{stripe}</Marque>
+				{stripe? <Marque margin={"top"} width={"100%"} fontSize={"15px"}>{stripe}</Marque>:""}
 			</TextBlock>
 		</Item>
 	

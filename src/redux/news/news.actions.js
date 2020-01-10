@@ -20,7 +20,7 @@ export const fetchNewsStartAsync = () => {
 		dispatch(fetchNewsStart);
 		fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=kxVgG6LIUn8ivPxepGeHuyvzAXGpGucN')
 			.then( resp =>{return  resp.json()})
-			.then( data =>{console.log(data);dispatch(fetchNewsSuccess(data))})
+			.then( data =>{dispatch(fetchNewsSuccess(data))})
 			.catch(e=>dispatch(fetchNewsFailure(e.message)));
 	};
 };

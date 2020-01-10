@@ -6,9 +6,6 @@ import FeedItem from "../FeedItem/FeedItem.component";
 
 
 const Card = styled.div`
-	position: fixed;
-	top: 40vh;
-	left: 25px;
 	background: #fff;
 	border-radius: 15px;
 	width: 500px;
@@ -42,6 +39,9 @@ const CardItems = styled.div`
 }
 	`;
 const NYTlogo = styled.img`
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
 	min-height: 35px;
 	height: 35px;
 	max-height: 35px;
@@ -90,8 +90,7 @@ class FeedBlock extends Component {
 	}
 	
 	makeStripe(stripeData) {
-		console.log(stripeData);
-		//
+		
 		return <StripeLine>
 			<SectionStripeText>{stripeData.section}</SectionStripeText>
 			<SubsectionStripeText>{Boolean(stripeData.subsection) && '|' + stripeData.subsection}</SubsectionStripeText>
