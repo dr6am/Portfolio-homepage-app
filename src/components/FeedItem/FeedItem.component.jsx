@@ -5,10 +5,10 @@ import Marque from "../marque/marque.component";
 ///TODO make a margue with other api features
 /// http://gnatkovsky.com.ua/begushhaya-stroka-na-sajt-s-pomoshhyu-css.html
 
-function FeedItem({url, title, caption, thumb,stripe}) {
+function FeedItem({url, title, caption, thumb="",stripe}) {
 	return (
 		<Item onClick={() => window.open(url, '_blank').focus}>
-			<ImgBlock img={thumb.url} size={thumb.height*0.8}/>
+			{Boolean(thumb) ? <ImgBlock img={thumb.url} size={thumb.height*0.8}/>:""}
 			<TextBlock size={thumb.height*0.8}>
 				<h1>{title ? title : "Title not found"}</h1>
 				<SubText>{caption}</SubText>

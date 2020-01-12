@@ -5,14 +5,14 @@ import FeedItem from "../FeedItem/FeedItem.component";
 const Wrap = styled.div`
 height: 550px;
 width: 550px;
-`
+`;
 const Txt = styled.div`
 	font-size: 2em;
 	font-family: "San Francisco","Lato",sans-serif;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	font-weight: 700;
 	color: #282c34;
-`
+`;
 const Card = styled.div`
 	margin: auto;
 	display: flex;
@@ -22,12 +22,12 @@ const Card = styled.div`
 	border-radius: 15px;
 	width: 500px;
 	padding: 25px;
-	height: 529px;
+	height: 559px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 `;
 const CardItems = styled.div`
 	margin-top: auto;
-	max-height: 415px;
+	max-height: 455px;
 	border: 1px solid #282c34;
 	border-radius: 15px;
 	overflow: hidden;
@@ -44,8 +44,6 @@ class PortfolioBlock extends Component {
 			title: "Clothing store",
 			caption: "My e-commerce project",
 			thumb: {
-				url: "https://cdn.glitch.com/80115052-6f77-4004-8889-e3d0122fea2c%2F%D0%90%D0%BD%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D1%8F%202020-01-10%20132242-min.png?v=1578651832213",
-				size: "150"
 			}
 		},
 		{
@@ -53,9 +51,13 @@ class PortfolioBlock extends Component {
 			title: "Homepage app",
 			caption: "Drag & drop test",
 			thumb: {
-				url: "https://cdn.glitch.com/80115052-6f77-4004-8889-e3d0122fea2c%2Fc30db698-bbe7-4922-bbb4-76f0f5457454.%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.png",
-				size: "150"
 			}
+		},
+		{
+			url: "https://practical-mclean-a180c8.netlify.com/",
+			title: "Gatsby",
+			caption: "Gatsby Blog ",
+			thumb: {}
 		},
 		{
 			url: "https://dr6am.github.io/todo-app/",
@@ -98,7 +100,6 @@ class PortfolioBlock extends Component {
 								url={item.url}
 								title={item.title}
 								caption={item.caption}
-								thumb={item.thumb}
 							/>)}
 					</CardItems>
 					{
