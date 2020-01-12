@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio-homepage-app/static/css/main.8dfd7bca.chunk.css",
-    "main.js": "/Portfolio-homepage-app/static/js/main.2d9de247.chunk.js",
-    "main.js.map": "/Portfolio-homepage-app/static/js/main.2d9de247.chunk.js.map",
-    "runtime-main.js": "/Portfolio-homepage-app/static/js/runtime-main.fd1a3100.js",
-    "runtime-main.js.map": "/Portfolio-homepage-app/static/js/runtime-main.fd1a3100.js.map",
-    "static/js/2.19d03a4d.chunk.js": "/Portfolio-homepage-app/static/js/2.19d03a4d.chunk.js",
-    "static/js/2.19d03a4d.chunk.js.map": "/Portfolio-homepage-app/static/js/2.19d03a4d.chunk.js.map",
+    "main.css": "/Portfolio-homepage-app/static/css/main.6eb2b737.chunk.css",
+    "main.js": "/Portfolio-homepage-app/static/js/main.e4054b07.chunk.js",
+    "main.js.map": "/Portfolio-homepage-app/static/js/main.e4054b07.chunk.js.map",
+    "runtime-main.js": "/Portfolio-homepage-app/static/js/runtime-main.e2892127.js",
+    "runtime-main.js.map": "/Portfolio-homepage-app/static/js/runtime-main.e2892127.js.map",
+    "static/js/2.024fb75f.chunk.js": "/Portfolio-homepage-app/static/js/2.024fb75f.chunk.js",
+    "static/js/2.024fb75f.chunk.js.map": "/Portfolio-homepage-app/static/js/2.024fb75f.chunk.js.map",
     "index.html": "/Portfolio-homepage-app/index.html",
-    "precache-manifest.10e08ac949ea8d9450aba28bb0f58300.js": "/Portfolio-homepage-app/precache-manifest.10e08ac949ea8d9450aba28bb0f58300.js",
+    "precache-manifest.c8b6daaf5dd9ab39d362b6e0ba2e8eee.js": "/Portfolio-homepage-app/precache-manifest.c8b6daaf5dd9ab39d362b6e0ba2e8eee.js",
     "service-worker.js": "/Portfolio-homepage-app/service-worker.js",
-    "static/css/main.8dfd7bca.chunk.css.map": "/Portfolio-homepage-app/static/css/main.8dfd7bca.chunk.css.map",
-    "static/js/2.19d03a4d.chunk.js.LICENSE": "/Portfolio-homepage-app/static/js/2.19d03a4d.chunk.js.LICENSE"
+    "static/css/main.6eb2b737.chunk.css.map": "/Portfolio-homepage-app/static/css/main.6eb2b737.chunk.css.map",
+    "static/js/2.024fb75f.chunk.js.LICENSE": "/Portfolio-homepage-app/static/js/2.024fb75f.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.fd1a3100.js",
-    "static/js/2.19d03a4d.chunk.js",
-    "static/css/main.8dfd7bca.chunk.css",
-    "static/js/main.2d9de247.chunk.js"
+    "static/js/runtime-main.e2892127.js",
+    "static/js/2.024fb75f.chunk.js",
+    "static/css/main.6eb2b737.chunk.css",
+    "static/js/main.e4054b07.chunk.js"
   ]
 }
